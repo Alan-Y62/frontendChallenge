@@ -11,21 +11,54 @@
   <title>Frontend Mentor | Interactive comments section</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
+  <link href="index.css" rel="stylesheet" />
 </head>
 
 <body>
 
   <!-- Pull dynamic content from the data.json file -->
+  <div class="contentContainer">
+    <div class="commentContainer">
+      <div class="identifiers">
+        <img class="profileImg" src="./images/avatars/image-amyrobson.png" />
+        <p class="username">amyrobson &nbsp;&nbsp;&nbsp;<span class="posted"> 1 month ago</span></p>
+      </div>
+      <p class="comment">
+        Impressive! Though it seems the drag feature could be improved.
+        But overall it looks incredible. You've nailed the design and
+        the responsiveness at various breakpoints works really well."
+      </p>
+    </div>
+    <div class="commentContainer">
+      <div class="identifiers">
+        <img class="profileImg" src="./images/avatars/image-amyrobson.png" />
+        <p class="username">amyrobson &nbsp;&nbsp;&nbsp;<span class="posted"> 1 month ago</span></p>
+      </div>
+      <p class="comment">
+        Impressive! Though it seems the drag feature could be improved.
+        But overall it looks incredible. You've nailed the design and
+        the responsiveness at various breakpoints works really well."
+      </p>
+    </div>
+    <div class="commentContainer">
+      <div class="identifiers">
+        <img class="profileImg" src="./images/avatars/image-amyrobson.png" />
+        <p class="username">amyrobson &nbsp;&nbsp;&nbsp;<span class="posted"> 1 month ago</span></p>
+      </div>
+      <p class="comment">
+        Impressive! Though it seems the drag feature could be improved.
+        But overall it looks incredible. You've nailed the design and
+        the responsiveness at various breakpoints works really well."
+      </p>
+    </div>
+    <div class="newComment">
+      <div class="identifiers">
+        <img class="profileImg" src="./images/avatars/image-amyrobson.png" />
+      </div>
+      <textarea></textarea>
+      <button type="submit">SEND</button>
+    </div>
+  </div>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
